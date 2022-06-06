@@ -1,15 +1,15 @@
 pipline {
   
-  agent any
+   agent any
   
-  stages{
+   stages{
     
-    stage("Build") {
+      stage("Build") {
       
-       steps {
-        echo 'Building the application'
-       }
-    }
+        steps {
+          echo 'Building the application'
+        }
+     }
     
        stage("Test") {
       
